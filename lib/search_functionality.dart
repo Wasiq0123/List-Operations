@@ -13,11 +13,11 @@ class _SearchFunctionalityState extends State<SearchFunctionality> {
   final TextEditingController controller = TextEditingController();
   final TextEditingController searchController = TextEditingController();
 
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   filteredData = data; // Initially, show all data
-  // }
+  @override
+  void initState() {
+    super.initState();
+    filteredData = data; // Initially, show all data
+  }
 
   // Add Data
   void addData() {
